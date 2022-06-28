@@ -1,0 +1,10 @@
+.updatePolice{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30%;
+    align-items: center;
+    
+}
+

@@ -1,0 +1,12 @@
+
+.formBox {
+    padding: 11px 0;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+    box-shadow: 1px 1px 20px;
+}

@@ -1,0 +1,142 @@
+/* Default css */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* setting body css */
+body{
+    /* background-color: white; */
+    background-image: url(img/background.jpg);
+    height: 100vh;
+    color: black;
+}
+
+/* header slide css */
+.header{
+    /* background-color: #fffeec; */
+    border: 2px solid black;
+    display: flex;
+    box-shadow: 1px 1px 15px;
+    
+}
+
+/* logo css */
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    margin: 5px 15px;
+}
+.logo h1{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* styling disclimer */
+.disclaimer{
+    font-size: 18px;
+    margin-top: 15px;   
+    margin-left: 60px;
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+    -webkit-animation-duration: 1.7s; 
+    color: red;    
+}
+
+@-webkit-keyframes blinker {
+    from { opacity: 1.0; }
+    to { opacity: 0.0; }
+  }
+
+
+
+/* styling login signup button */
+.buttonClass{
+    position: relative;
+    left: 900px;
+}
+
+.btn{
+    margin: 15px 5px;
+    padding: 3px 10px;
+    background-color: #a2b1ff;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #a2b1ff;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+/* usericon and name styling */
+.usericon{
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+
+/* login form design */
+.mainContent{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.formBox{
+    padding: 30px 0;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+    top: 50px;
+    justify-content: center;
+    box-shadow: 1px 1px 20px;
+    
+}
+
+.formBox h3{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin: 15px 0;
+}
+
+
+.formBox input{
+    margin: 15px;
+}
+
+.formBox button{
+    position: relative;
+    left: 80px;
+}
+
+.userbtn{
+    margin: 15px 5px;
+    padding: 3px 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.userbtn:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* footer css */
+footer{
+    display: flex;
+    position: relative;
+    top: 60px;
+}
+footer p{
+    text-align: center;
+}
+
+

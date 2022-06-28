@@ -1,0 +1,15 @@
+.buttonClass{
+    position: relative;
+    left: 800px;
+}
+
+.insert{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.formgroup{
+    display: inline-block;
+    margin: 20px 40px;
+}
